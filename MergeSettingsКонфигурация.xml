@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.3/config/merge/settings" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" platformVersion="8.3.11">
+	<MainConfiguration>
+		<Name>Конфигурация</Name>
+	</MainConfiguration>
+	<SecondConfiguration>
+		<Name>Конфигурация</Name>
+	</SecondConfiguration>
+	<Parameters>
+		<ConfigurationsRelation>ConfigurationsNotRelated</ConfigurationsRelation>
+		<AllowMainConfigurationObjectDeletion>false</AllowMainConfigurationObjectDeletion>
+		<CopyObjectsMode>false</CopyObjectsMode>
+	</Parameters>
+	<Objects>
+		<Object fullName="Catalog.Организации.Form.ФормаЭлемента">
+			<Properties>
+				<Property name="Form">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullName="Catalog.Организации.Form.ФормаСписка">
+			<Properties>
+				<Property name="Form">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullName="Catalog.Валюты.Attribute.МеждународныйКод">
+			<Properties>
+				<Property name="FillValue">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullName="Catalog.Номенклатура">
+			<ObjectOrder>GetFromSecondConfiguration</ObjectOrder>
+			<Properties>
+				<Property name="DefaultObjectForm">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DefaultListForm">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullName="Catalog.Номенклатура.Attribute.ЕдиницаПоУмолчанию">
+			<Properties>
+				<Property name="Type">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="FillValue">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Номенклатура.Form.ФормаЭлемента">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Номенклатура.Form.ФормаСписка">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullName="Catalog.Единицы">
+			<Properties>
+				<Property name="DefaultListForm">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DefaultChoiceForm">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Единицы.Attribute.Коефициент">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Единицы.Attribute.Единица">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Единицы.Attribute.Вес">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Единицы.Attribute.Объем">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullName="Catalog.Единицы.Form.ФормаЭлемента">
+			<Properties>
+				<Property name="Form">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Единицы.Form.ФормаСписка">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Единицы.Form.ФормаВыбора">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullName="Catalog.Контрагенты">
+			<ObjectOrder>GetFromSecondConfiguration</ObjectOrder>
+			<Properties>
+				<Property name="DefaultObjectForm">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullName="Catalog.Контрагенты.Form.ФормаСписка">
+			<Properties>
+				<Property name="Form">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullName="Catalog.Склады">
+			<Properties>
+				<Property name="Synonym">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DescriptionLength">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Склады.Attribute.ВидСклада">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullName="Catalog.Склады.Form.ФормаЭлемента">
+			<Properties>
+				<Property name="Form">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullName="Catalog.Склады.Form.ФормаСписка">
+			<Properties>
+				<Property name="Form">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+	</Objects>
+</Settings>
